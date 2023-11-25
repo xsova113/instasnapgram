@@ -22,7 +22,6 @@ import {
 } from "../appwrite/api";
 import { INewPost, INewUser, IUpdatePost } from "@/types";
 import { QUERY_KEYS } from "./queryKeys";
-import { Models } from "appwrite";
 
 export const useCreateUserAccount = () => {
   return useMutation({
